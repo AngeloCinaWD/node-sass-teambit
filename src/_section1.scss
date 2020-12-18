@@ -1,0 +1,58 @@
+#section1 {
+  @include width60;
+  @include flexNoCenter;
+  background-color: $Color3;
+  padding-top: 100px;
+
+  > div:first-child {
+    padding-top: 10px;
+  }
+
+  .sez1flex {
+    flex: 1;
+
+    p:first-child {
+      width: 90%;
+      @include text40;
+    }
+
+    #sez1P2 {
+      width: 80%;
+      @include text20;
+      margin: 40px 0;
+    }
+
+    .testo14 {
+      @include text14;
+      color: $Color1;
+
+      i {
+        margin-left: 5px;
+      }
+    }
+
+    #divButton {
+      width: 60%;
+      @include flexBetween;
+      margin-bottom: 20px;
+
+      .buttonSign {
+        @include flexCenter;
+        @include button;
+        background-color: $Color2;
+        color: $Color3;
+        @include text14;
+
+        &:hover {
+          background-color: $Color5;
+        }
+      }
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+
+    }
+  }
+}

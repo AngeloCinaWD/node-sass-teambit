@@ -1,8 +1,76 @@
-$ColorText1: #4e3d1e;
-$ColorText2: #30488f;
+$Color1: #040F0F;
+$Color2: #4466D4;
+$Color3: #ffffff;
+$Color4: #7F14D4;
+$Color5: #0E14EE;
+
+@mixin width60 {
+  width: 60%;
+  margin: auto;
+}
+
+@mixin flexNoCenter {
+  display: flex;
+  justify-content: center;
+}
 
 @mixin flexCenter {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@mixin flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin text14 {
+  font-size: 14px;
+}
+
+@mixin text20 {
+  font-size: 20px;
+}
+
+@mixin text30 {
+  font-size: 30px;
+}
+
+@mixin text40 {
+  font-size: 50px;
+}
+
+@mixin weightBold {
+  font-weight: bold;
+}
+
+@mixin weight500 {
+  font-weight: 500;
+}
+
+@mixin button {
+  color: $Color2;
+  padding: 0 10px;
+  border: 1px solid $Color2;
+  border-radius: 5px;
+  height: 35px;
+
+  div {
+    width: 18px;
+    margin-right: 5px;
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
 }

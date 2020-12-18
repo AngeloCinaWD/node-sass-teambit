@@ -1,8 +1,46 @@
 header {
+  @include flexCenter;
+  @include width60;
+  height: 75px;
+  border-bottom: 1px solid $Color1;
+  background-color: $Color3;
+
+  #logoHeader a {
+    @include flexCenter;
+    flex: 3;
+    width: 100px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
   nav {
-    ul {
+    flex: 9;
+    @include flexEnd;
+
+    a {
       @include flexCenter;
-      list-style: none;
+      margin-left: 20px;
+      color: $Color1;
+      @include text14;
+      @include weightBold;
+    }
+
+    #dropDown {
+      i.fas {
+        margin-left: 5px;
+      }
+    }
+
+    .buttonSign {
+      @include button;
+
+      &:hover {
+        background-color: $Color2;
+        color: $Color3;
+      }
     }
   }
 }
