@@ -1,0 +1,62 @@
+#section2 {
+  background-color: $Color4;
+
+  .containerSez2:first-child {
+    border-bottom: 1px solid $Color1;
+  }
+
+  .containerSez2 {
+    @include width60;
+    padding: 80px 0;
+
+    .sez2uno {
+      @include width50;
+      text-align: center;
+      color: $Color1;
+      @include text25;
+      margin-bottom: 80px;
+    }
+
+    .sez2due {
+      @include width70;
+      @include flexNoCenter;
+      margin-bottom: 80px;
+
+      .sez2due30 {
+        @include flexColumnBet;
+        width: calc(100% / 3 - 20px);
+        text-align: center;
+        @include text20;
+        margin: 0 10px;
+
+        div {
+          width: 80%;
+          margin: 0 auto;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+
+        #sez2due30B {
+          width: 30%;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .sez2tre {
+      width: 30%;
+      margin: auto;
+
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+
+
+  }
+}

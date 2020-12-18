@@ -4,9 +4,30 @@ $Color3: #ffffff;
 $Color4: #7F14D4;
 $Color5: #0E14EE;
 
+@mixin width50 {
+  width: 50%;
+  margin: auto;
+}
+
 @mixin width60 {
   width: 60%;
   margin: auto;
+}
+
+@mixin width70 {
+  width: 70%;
+  margin: auto;
+}
+
+@mixin width80 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@mixin flexColumnBet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 @mixin flexNoCenter {
@@ -40,11 +61,15 @@ $Color5: #0E14EE;
   font-size: 20px;
 }
 
+@mixin text25 {
+  font-size: 25px;
+}
+
 @mixin text30 {
   font-size: 30px;
 }
 
-@mixin text40 {
+@mixin text50 {
   font-size: 50px;
 }
 

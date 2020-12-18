@@ -2,7 +2,7 @@
   @include width60;
   @include flexNoCenter;
   background-color: $Color3;
-  padding-top: 100px;
+  margin: 100px auto;
 
   > div:first-child {
     padding-top: 10px;
@@ -13,7 +13,7 @@
 
     p:first-child {
       width: 90%;
-      @include text40;
+      @include text50;
     }
 
     #sez1P2 {
