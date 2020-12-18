@@ -3,21 +3,57 @@
   <head>
     <meta charset="utf-8">
     <title>Teambit</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
     <link rel="stylesheet" href="app.css">
     <script type="text/javascript" src="app.js"></script>
   </head>
   <body>
     <header>
+      <div id="logoHeader">
+        <a href="#"> <img src="../img/logo teambit.png"></a>
+      </div>
       <nav>
-        <ul>
-          <li> <a href="#">Link1</a>  </li>
-          <li> <a href="#">Link2</a>  </li>
-          <li> <a href="#">Link3</a>  </li>
-          <li> <a href="#">Link4</a>  </li>
-          <li> <a href="#">Link5</a>  </li>
-          <li> <a href="#">Link6</a>  </li>
-        </ul>
+        <a id="dropDown" href="#">Solutions <i class="fas fa-chevron-down"></i></a>
+        <a href="#">Pricing</a>
+        <a href="#">Blog</a>
+        <a href="#">Sign In</a>
+        <a class="buttonSign" href="#">
+          <div>
+            <img src="../img/Google-2015-Favicon-01.svg">
+          </div>
+          Sign up
+        </a>
       </nav>
     </header>
+
+    <main>
+      <section id="section1">
+        <div class="sez1flex">
+          <p>Understand, recognize and develop your people</p>
+          <p id="sez1P2">Teambit helps teams create a high performing culture with regular feedback.</p>
+          <div id="divButton">
+            <a class="buttonSign" href="#">
+              <div>
+                <img src="../img/Google-2015-Favicon-01.svg">
+              </div>
+              Sign up with Google
+            </a>
+            <p class="testo14">or</p>
+            <a class="buttonSign" href="#">
+              <div>
+                <img src="../img/Slack-08.svg">
+              </div>
+              Sign up with Slack
+            </a>
+          </div>
+          <a class="testo14" href="#">or use your email address <i class="fas fa-long-arrow-alt-right"></i></a>
+        </div>
+        <div class="sez1flex">
+          <img src="../img/head.jpg">
+        </div>
+      </section>
+    </main>
   </body>
 </html>
