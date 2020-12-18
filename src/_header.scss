@@ -1,0 +1,8 @@
+header {
+  nav {
+    ul {
+      @include flexCenter;
+      list-style: none;
+    }
+  }
+}

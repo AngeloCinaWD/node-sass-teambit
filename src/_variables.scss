@@ -1,0 +1,8 @@
+$ColorText1: #4e3d1e;
+$ColorText2: #30488f;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
