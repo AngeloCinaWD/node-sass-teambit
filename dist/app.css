@@ -172,12 +172,13 @@ header nav .buttonSign:hover {
 }
 
 #section2 .containerSez2 .sez2uno {
-  width: 50%;
+  width: 55%;
   margin: auto;
   text-align: center;
   color: #040F0F;
   font-size: 25px;
   margin-bottom: 80px;
+  font-weight: bold;
 }
 
 #section2 .containerSez2 .sez2due {
@@ -196,6 +197,7 @@ header nav .buttonSign:hover {
   text-align: center;
   font-size: 20px;
   margin: 0 10px;
+  color: #040F0F;
 }
 
 #section2 .containerSez2 .sez2due .sez2due30 div {
@@ -219,6 +221,134 @@ header nav .buttonSign:hover {
 }
 
 #section2 .containerSez2 .sez2tre img {
+  width: 100%;
+  height: auto;
+}
+
+#section2 .containerSez2 .sez2quattro {
+  width: 55%;
+  margin: auto;
+  text-align: center;
+  color: #040F0F;
+  font-size: 25px;
+  margin-top: 80px;
+  font-weight: bold;
+}
+
+#section3 {
+  background-color: #ffffff;
+}
+
+#section3 #containerSez3 {
+  width: 80%;
+  margin: auto;
+}
+
+#section3 #containerSez3 .sez3uno {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#section3 #containerSez3 .sez3uno .imgSez3 {
+  flex: 4;
+}
+
+#section3 #containerSez3 .sez3uno .imgSez3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#section3 #containerSez3 .sez3uno .textSez3 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #040F0F;
+  padding: 0 10px;
+}
+
+#section3 #containerSez3 .sez3uno .textSez3 p:first-child {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#section3 #containerSez3 .sez3uno .textSez3 .secondoPsez3 {
+  font-size: 22px;
+  margin: 40px 0;
+}
+
+#section3 #containerSez3 .sez3uno .textSez3 a {
+  font-size: 22px;
+  color: #4466D4;
+  margin-bottom: 40px;
+}
+
+#section3 #containerSez3 .sez3uno .textSez3 .imgtextSez3 {
+  width: 80%;
+  margin: auto;
+}
+
+#section3 #containerSez3 .sez3uno .textSez3 .imgtextSez3 img {
+  width: 100%;
+  height: auto;
+}
+
+#section3 #containerSez3 .sez3due {
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#section3 #containerSez3 .sez3due .imgSez3 {
+  flex: 4;
+}
+
+#section3 #containerSez3 .sez3due .imgSez3 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#section3 #containerSez3 .sez3due .textSez3 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #040F0F;
+  padding: 0 10px;
+}
+
+#section3 #containerSez3 .sez3due .textSez3 p:first-child {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#section3 #containerSez3 .sez3due .textSez3 .secondoPsez3 {
+  font-size: 22px;
+  margin: 40px 0;
+}
+
+#section3 #containerSez3 .sez3due .textSez3 a {
+  font-size: 22px;
+  color: #4466D4;
+  margin-bottom: 40px;
+}
+
+#section3 #containerSez3 .sez3due .textSez3 .imgtextSez3 {
+  width: 80%;
+  margin: auto;
+}
+
+#section3 #containerSez3 .sez3due .textSez3 .imgtextSez3 img {
   width: 100%;
   height: auto;
 }

@@ -1,0 +1,107 @@
+#section3 {
+  background-color: $Color3;
+
+  #containerSez3 {
+    @include width80;
+
+    .sez3uno {
+      width: 80%;
+      @include flexStart;
+      margin-top: 100px;
+      margin-bottom: 100px;
+
+      .imgSez3 {
+        flex: 4;
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+
+      .textSez3 {
+        flex: 2;
+        @include flexColumnBet;
+        color: $Color1;
+        padding: 0 10px;
+
+        p:first-child {
+          @include text25;
+          @include weightBold;
+        }
+
+        .secondoPsez3 {
+          @include text22;
+          margin: 40px 0;
+        }
+
+        a {
+          @include text22;
+          color: $Color2;
+          margin-bottom: 40px;
+        }
+
+        .imgtextSez3 {
+          @include width80;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+    .sez3due {
+      width: 80%;
+      margin-left: 20%;
+      margin-top: 100px;
+      margin-bottom: 100px;
+      @include flexStart;
+
+      .imgSez3 {
+        flex: 4;
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+
+      .textSez3 {
+        flex: 2;
+        @include flexColumnBet;
+        color: $Color1;
+        padding: 0 10px;
+
+        p:first-child {
+          @include text25;
+          @include weightBold;
+        }
+
+        .secondoPsez3 {
+          @include text22;
+          margin: 40px 0;
+        }
+
+        a {
+          @include text22;
+          color: $Color2;
+          margin-bottom: 40px;
+        }
+
+        .imgtextSez3 {
+          @include width80;
+
+          img {
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+    }
+
+  }
+}

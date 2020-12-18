@@ -10,11 +10,12 @@
     padding: 80px 0;
 
     .sez2uno {
-      @include width50;
+      @include width55;
       text-align: center;
       color: $Color1;
       @include text25;
       margin-bottom: 80px;
+      @include weightBold;
     }
 
     .sez2due {
@@ -28,6 +29,7 @@
         text-align: center;
         @include text20;
         margin: 0 10px;
+        color: $Color1;
 
         div {
           width: 80%;
@@ -54,6 +56,15 @@
         width: 100%;
         height: auto;
       }
+    }
+
+    .sez2quattro {
+      @include width55;
+      text-align: center;
+      color: $Color1;
+      @include text25;
+      margin-top: 80px;
+      @include weightBold;
     }
 
 

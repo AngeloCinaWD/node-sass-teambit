@@ -4,8 +4,8 @@ $Color3: #ffffff;
 $Color4: #7F14D4;
 $Color5: #0E14EE;
 
-@mixin width50 {
-  width: 50%;
+@mixin width55 {
+  width: 55%;
   margin: auto;
 }
 
@@ -21,7 +21,7 @@ $Color5: #0E14EE;
 
 @mixin width80 {
   width: 80%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 @mixin flexColumnBet {
@@ -38,6 +38,12 @@ $Color5: #0E14EE;
 @mixin flexCenter {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@mixin flexStart {
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -59,6 +65,10 @@ $Color5: #0E14EE;
 
 @mixin text20 {
   font-size: 20px;
+}
+
+@mixin text22 {
+  font-size: 22px;
 }
 
 @mixin text25 {
