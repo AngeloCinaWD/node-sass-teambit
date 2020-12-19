@@ -152,6 +152,14 @@ header nav .buttonSign:hover {
   background-color: #0E14EE;
 }
 
+#section1 .sez1flex > a {
+  color: #040F0F;
+}
+
+#section1 .sez1flex > a:hover {
+  color: #4466D4;
+}
+
 #section1 .sez1flex img {
   width: 100%;
   height: auto;
@@ -465,5 +473,73 @@ header nav .buttonSign:hover {
 
 #section4 > a {
   color: #040F0F;
+}
+
+#section4 > a:hover {
+  color: #4466D4;
+}
+
+footer {
+  width: 60%;
+  margin: auto;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 70px;
+}
+
+footer #logoFooter {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  padding-right: 40px;
+}
+
+footer #logoFooter #logo {
+  width: 30%;
+  margin-right: 20px;
+}
+
+footer #logoFooter #logo img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+footer #logoFooter #testo {
+  width: 70%;
+  color: #040F0F;
+  font-weight: bold;
+}
+
+footer #logoFooter #testo span {
+  color: #4466D4;
+}
+
+footer .linkFooter {
+  flex: 1;
+}
+
+footer .linkFooter p {
+  color: #040F0F;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+footer .linkFooter ul {
+  list-style: none;
+}
+
+footer .linkFooter ul li {
+  margin-bottom: 10px;
+}
+
+footer .linkFooter ul li a {
+  font-size: 14px;
+  color: #040F0F;
+}
+
+footer .linkFooter ul li a:hover {
+  color: #4466D4;
 }
 
