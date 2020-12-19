@@ -110,6 +110,10 @@ $Color5: #0E14EE;
   font-size: 50px;
 }
 
+@mixin text60 {
+  font-size: 60px;
+}
+
 @mixin weightBold {
   font-weight: bold;
 }

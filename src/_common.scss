@@ -13,3 +13,22 @@ a {
   @include text14;
   color: $Color1;
 }
+
+body{
+  >div {
+    background-color: $Color5;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 30px;
+    text-align: center;
+    line-height: 65px;
+    @include text40;
+
+    a {
+      color: $Color3;
+    }
+  }
+}
