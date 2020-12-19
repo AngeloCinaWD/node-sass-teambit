@@ -8,3 +8,8 @@
 a {
   text-decoration: none;
 }
+
+.testo14 {
+  @include text14;
+  color: $Color1;
+}
