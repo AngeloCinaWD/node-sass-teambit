@@ -1,4 +1,88 @@
 #section4 {
   background-color: $Color4;
-  height: 200px;
+  text-align: center;
+  padding: 50px 0;
+
+  > p {
+    @include text40;
+    color: $Color1;
+  }
+
+  #textSez4 {
+    @include width30;
+    text-align: left;
+    color: $Color1;
+    background-color: $Color3;
+    padding: 20px 42px;
+    border: 1px solid $Color1;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    position: relative;
+
+    > p {
+      margin-bottom: 20px;
+    }
+
+    #foundersImg {
+      width: 50%;
+      @include flexStart;
+
+      .imgFounder {
+        flex: 1;
+        margin-right: 15px;
+        @include flexCenter;
+
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+
+      #dataFounders {
+        flex: 4;
+
+        #names {
+          color: $Color2;
+          @include text14;
+        }
+
+        #position {
+          color: $Color1;
+          @include text12;
+        }
+      }
+    }
+
+    #quote {
+      position: absolute;
+      top: -27px;
+      left: 0;
+      @include text40;
+      color: $Color2;
+    }
+  }
+
+  #divButton {
+    @include width20;
+    @include flexBetween;
+    margin-bottom: 20px;
+
+    .buttonSign {
+      @include flexCenter;
+      @include button;
+      background-color: $Color2;
+      color: $Color3;
+      @include text14;
+
+      &:hover {
+        background-color: $Color5;
+      }
+    }
+  }
+
+  > a {
+    color: $Color1;
+  }
 }

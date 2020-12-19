@@ -4,6 +4,21 @@ $Color3: #ffffff;
 $Color4: #7F14D4;
 $Color5: #0E14EE;
 
+@mixin width20 {
+  width: 20%;
+  margin: auto;
+}
+
+@mixin width30 {
+  width: 30%;
+  margin: auto;
+}
+
+@mixin width40 {
+  width: 40%;
+  margin: auto;
+}
+
 @mixin width55 {
   width: 55%;
   margin: auto;
@@ -59,8 +74,16 @@ $Color5: #0E14EE;
   align-items: center;
 }
 
+@mixin text12 {
+  font-size: 12px;
+}
+
 @mixin text14 {
   font-size: 14px;
+}
+
+@mixin text16 {
+  font-size: 16px;
 }
 
 @mixin text20 {
@@ -77,6 +100,10 @@ $Color5: #0E14EE;
 
 @mixin text30 {
   font-size: 30px;
+}
+
+@mixin text40 {
+  font-size: 40px;
 }
 
 @mixin text50 {
