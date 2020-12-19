@@ -355,6 +355,115 @@ header nav .buttonSign:hover {
 
 #section4 {
   background-color: #7F14D4;
-  height: 200px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#section4 > p {
+  font-size: 40px;
+  color: #040F0F;
+}
+
+#section4 #textSez4 {
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  color: #040F0F;
+  background-color: #ffffff;
+  padding: 20px 42px;
+  border: 1px solid #040F0F;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#section4 #textSez4 > p {
+  margin-bottom: 20px;
+}
+
+#section4 #textSez4 #foundersImg {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#section4 #textSez4 #foundersImg .imgFounder {
+  flex: 1;
+  margin-right: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#section4 #textSez4 #foundersImg .imgFounder img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#section4 #textSez4 #foundersImg #dataFounders {
+  flex: 4;
+}
+
+#section4 #textSez4 #foundersImg #dataFounders #names {
+  color: #4466D4;
+  font-size: 14px;
+}
+
+#section4 #textSez4 #foundersImg #dataFounders #position {
+  color: #040F0F;
+  font-size: 12px;
+}
+
+#section4 #textSez4 #quote {
+  position: absolute;
+  top: -27px;
+  left: 0;
+  font-size: 40px;
+  color: #4466D4;
+}
+
+#section4 #divButton {
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+#section4 #divButton .buttonSign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4466D4;
+  padding: 0 10px;
+  border: 1px solid #4466D4;
+  border-radius: 5px;
+  height: 35px;
+  background-color: #4466D4;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+#section4 #divButton .buttonSign div {
+  width: 18px;
+  margin-right: 5px;
+}
+
+#section4 #divButton .buttonSign div img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#section4 #divButton .buttonSign:hover {
+  background-color: #0E14EE;
+}
+
+#section4 > a {
+  color: #040F0F;
 }
 
