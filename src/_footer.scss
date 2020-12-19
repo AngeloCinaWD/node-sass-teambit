@@ -1,0 +1,61 @@
+footer {
+  @include width60;
+  background-color: $Color3;
+  @include flexNoCenter;
+  padding: 100px 0 70px;
+
+  #logoFooter {
+    flex: 3;
+    @include flexNoCenter;
+    padding-right: 40px;
+
+    #logo {
+      width: 30%;
+      margin-right: 20px;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+    #testo {
+      width: 70%;
+      color: $Color1;
+      @include weightBold;
+
+      span {
+        color: $Color2;
+      }
+    }
+
+  }
+
+  .linkFooter {
+    flex: 1;
+
+    p {
+      color: $Color1;
+      @include weightBold;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+        margin-bottom: 10px;
+
+        a {
+          @include text14;
+          color: $Color1;
+
+          &:hover {
+            color: $Color2;
+          }
+        }
+      }
+    }
+  }
+}

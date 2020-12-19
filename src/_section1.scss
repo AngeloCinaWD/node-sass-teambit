@@ -49,6 +49,14 @@
       }
     }
 
+    > a {
+      color: $Color1;
+
+      &:hover {
+        color: $Color2;
+      }
+    }
+
     img {
       width: 100%;
       height: auto;
