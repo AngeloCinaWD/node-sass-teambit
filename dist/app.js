@@ -115,8 +115,8 @@ console.log("Hello world");
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /mnt/HD-UBUNTU/Corso/REPO/node-sass-teambit/src/app.js */"./src/app.js");
-module.exports = __webpack_require__(/*! /mnt/HD-UBUNTU/Corso/REPO/node-sass-teambit/src/app.scss */"./src/app.scss");
+__webpack_require__(/*! /home/angelo/Corso/REPO/node-sass-teambit/src/app.js */"./src/app.js");
+module.exports = __webpack_require__(/*! /home/angelo/Corso/REPO/node-sass-teambit/src/app.scss */"./src/app.scss");
 
 
 /***/ })
